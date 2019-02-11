@@ -1,5 +1,7 @@
 package com.codecool.api;
 
+import java.util.Iterator;
+
 public class Question {
 
     private String id;
@@ -27,4 +29,5 @@ public class Question {
     public boolean getEvaluatedAnswer(String input) {
         return answer.evaluateAnswerByInput(input);
     }
+
 }
