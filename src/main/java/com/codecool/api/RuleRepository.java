@@ -31,17 +31,12 @@ public class RuleRepository {
 
         @Override
         public Question next() {
-            if(this.hasNext()) {
+            if (this.hasNext()) {
                 return questions.get(index++);
             } else {
                 return null;
             }
         }
-
-        public Question current() {
-            return questions.get(index);
-        }
     }
-
 }
 

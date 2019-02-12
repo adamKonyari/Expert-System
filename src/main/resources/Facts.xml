@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="superman">
+        <Description value="Superman"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="batman">
+        <Description value="Batman"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">false</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="ironman">
+        <Description value="Ironman"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="quicksilver">
+        <Description value="Quicksilver"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">false</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="professor x">
+        <Description value="Professor X"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">true</Eval>
+            <Eval id="strength">false</Eval>
+            <Eval id="telekinesis">true</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="captain america">
+        <Description value="Captain America"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="green arrow">
+        <Description value="Green Arrow"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">false</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="hulk">
+        <Description value="Hulk"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="thor">
+        <Description value="Thor"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="wonderwoman">
+        <Description value="Wonderwoman"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="flash">
+        <Description value="Flash"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">false</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="spiderman">
+        <Description value="Spiderman"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="green lantern">
+        <Description value="Green Lantern"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="doctor strange">
+        <Description value="Doctor Strange"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">false</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="silver surfer">
+        <Description value="Silver Surfer"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="human torch">
+        <Description value="Human Torch"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="aquaman">
+        <Description value="Aquaman"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="cyborg">
+        <Description value="Cyborg"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="shazam">
+        <Description value="Shazam"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <<Fact id="vision">
+    <Description value="Vision"/>
+    <Evals>
+        <Eval id="flying">true</Eval>
+        <Eval id="telepathy">false</Eval>
+        <Eval id="strength">true</Eval>
+        <Eval id="telekinesis">false</Eval>
+        <Eval id="speed">true</Eval>
+        <Eval id="money">false</Eval>
+    </Evals>
+</Fact>
+    <Fact id="captain britain">
+        <Description value="Captain Britain"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="hellboy">
+        <Description value="Hellboy"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="black panther">
+        <Description value="Black Panther"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="deadpool">
+        <Description value="Deadpool"/>
+        <Evals>
+            <Eval id="flying">false</Eval>
+            <Eval id="telepathy">false</Eval>
+            <Eval id="strength">false</Eval>
+            <Eval id="telekinesis">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="superpenis">true</Eval>
+        </Evals>
+    </Fact>
