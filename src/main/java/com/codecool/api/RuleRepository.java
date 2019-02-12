@@ -1,5 +1,6 @@
 package com.codecool.api;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -8,9 +9,9 @@ public class RuleRepository {
     private Iterator<Question> questionIterator;
     private List<Question> questions;
 
-    public RuleRepository(Iterator<Question> questionIterator, List<Question> questions) {
+    public RuleRepository() {
         this.questionIterator = new QuestionIterator();
-        this.questions = questions;
+        this.questions = new ArrayList<>();
     }
 
     public void addQuestion(Question question) {

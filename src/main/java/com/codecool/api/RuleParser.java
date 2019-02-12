@@ -9,7 +9,8 @@ public class RuleParser extends XMLParser {
 
     public RuleParser(String xmlPath) {
         loadXmlDocument(xmlPath);
-        
+        this.ruleRepository = new RuleRepository();
+        this.nodeList = getDoc().getElementsByTagName("Rule");
     }
 
 
