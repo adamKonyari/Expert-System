@@ -32,8 +32,8 @@
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="Do you want to move objects with your mind?">
-        <Question></Question>
+    <Rule id="">
+        <Question>Do you want to move objects with your mind?</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
