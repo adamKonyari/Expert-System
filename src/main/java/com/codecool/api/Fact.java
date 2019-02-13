@@ -30,4 +30,8 @@ public class Fact {
     public String getDescription() {
         return description;
     }
+
+    public Map<String, Boolean> getEval() {
+        return eval;
+    }
 }

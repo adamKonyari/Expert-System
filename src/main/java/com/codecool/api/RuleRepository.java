@@ -22,6 +22,10 @@ public class RuleRepository {
         return questionIterator;
     }
 
+    public List<Question> getQuestions() {
+        return questions;
+    }
+
     public class QuestionIterator implements Iterator {
         private int index;
 
