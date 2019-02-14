@@ -8,9 +8,9 @@ public class Answer {
     private List<Value> valueList = new ArrayList<>();
 
     public boolean evaluateAnswerByInput(String input) {
-        if(input.equalsIgnoreCase("yes")) {
+        if(input.equalsIgnoreCase("y")) {
             return true;
-        } else if(input.equalsIgnoreCase("no")) {
+        } else if(input.equalsIgnoreCase("n")) {
             return false;
         }
         return false;

@@ -12,6 +12,7 @@ public class ESProvider {
     private FactParser factParser;
     private RuleParser ruleParser;
     private Answer answer = new Answer();
+    private Map<String, Boolean> answers;
 
     public ESProvider(FactParser factParser, RuleParser ruleParser) {
         this.factParser = factParser;
@@ -19,7 +20,7 @@ public class ESProvider {
     }
 
     public void collectAnswers() {
-        Map<String, Boolean> answers = new HashMap<>();
+        answers = new HashMap<>();
         Ui ui = new Ui();
 
         while(ruleParser.getRuleRepository().getIterator().hasNext()){
@@ -55,9 +56,9 @@ public class ESProvider {
             factEval.put(fact, fact.getEval());
         }
 
-        for(Map.Entry<Fact, Map<String, Boolean>> factMapEntry: factEval.entrySet()) {
-            if(factMapEntry.getValue().equals(answer)) {
-                result.add(factMapEntry.getKey());
+        for(Map.Entry<Fact, Map<String, Boolean>> fact: factEval.entrySet()) {
+            if(fact.getValue().equals(answers)) {
+                result.add(fact.getKey());
             }
         }
 

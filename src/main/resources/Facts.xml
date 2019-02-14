@@ -209,7 +209,7 @@
             <Eval id="money">false</Eval>
         </Evals>
     </Fact>
-    <<Fact id="vision">
+    <Fact id="vision">
     <Description value="Vision"/>
     <Evals>
         <Eval id="flying">true</Eval>
@@ -219,7 +219,7 @@
         <Eval id="speed">true</Eval>
         <Eval id="money">false</Eval>
     </Evals>
-</Fact>
+    </Fact>
     <Fact id="captain britain">
         <Description value="Captain Britain"/>
         <Evals>
@@ -262,6 +262,6 @@
             <Eval id="telekinesis">false</Eval>
             <Eval id="speed">false</Eval>
             <Eval id="money">false</Eval>
-            <Eval id="superpenis">true</Eval>
         </Evals>
     </Fact>
+</Facts>

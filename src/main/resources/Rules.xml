@@ -1,78 +1,67 @@
 <Rules>
-    <Rule id="">
+    <Rule id="flying">
         <Question>Do you want to fly?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="yes"/>
+                <SingleValue value="y"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="no"/>
+                <SingleValue value="n"/>
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="">
+    <Rule id="telepathy">
         <Question>Do you want to read others mind?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="yes"/>
+                <SingleValue value="y"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="no"/>
+                <SingleValue value="n"/>
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="">
+    <Rule id="strength">
         <Question>Do you want to have super strength?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value=""/>
+                <SingleValue value="y"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value=""/>
+                <SingleValue value="n"/>
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="">
+    <Rule id="telekinesis">
         <Question>Do you want to move objects with your mind?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="yes"/>
+                <SingleValue value="y"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="no"/>
+                <SingleValue value="n"/>
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="">
+    <Rule id="speed">
         <Question>Do you want to move fast?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="yes"/>
+                <SingleValue value="y"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="no"/>
+                <SingleValue value="n"/>
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="">
+    <Rule id="money">
         <Question>Do you want to be super rich?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="yes"/>
+                <SingleValue value="y"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="no"/>
-            </Selection>
-        </Answer>
-    </Rule>
-    <Rule id="">
-        <Question>Do you want to have a Super Penis?</Question>
-        <Answer>
-            <Selection value="true">
-                <SingleValue value="yes"/>
-            </Selection>
-            <Selection value="false">
-                <SingleValue value="no"/>
+                <SingleValue value="n"/>
             </Selection>
         </Answer>
     </Rule>

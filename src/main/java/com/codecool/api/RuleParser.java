@@ -13,9 +13,10 @@ public class RuleParser extends XMLParser {
     private NodeList nodeList;
 
     public RuleParser(String xmlPath) {
-        loadXmlDocument(xmlPath);
+        loadXmlDocument(xmlPath); //We get the actual document
         this.ruleRepository = new RuleRepository();
-        this.nodeList = getDoc().getElementsByTagName("Rule");
+        this.nodeList = getDoc().getElementsByTagName("Rule"); //Counting how many Rules there are - needed for iteration later
+        addRulesToRepository();
     }
 
     public RuleRepository getRuleRepository() {
@@ -61,5 +62,4 @@ public class RuleParser extends XMLParser {
         }
         return answer;
     }
-
 }

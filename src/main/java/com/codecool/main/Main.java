@@ -2,12 +2,8 @@ package com.codecool.main;
 
 public class Main {
 
-    public String getWelcomeString() {
-        return "Hi!";
-    }
-
     public static void main(String[] args) {
-        Main main = new Main();
-        System.out.println(main.getWelcomeString());
+       Ui ui = new Ui();
+       ui.program_menu();
     }
 }
