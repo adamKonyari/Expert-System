@@ -262,6 +262,7 @@
             <Eval id="telekinesis">false</Eval>
             <Eval id="speed">false</Eval>
             <Eval id="money">false</Eval>
+            <Eval id="penis">true</Eval>
         </Evals>
     </Fact>
 </Facts>

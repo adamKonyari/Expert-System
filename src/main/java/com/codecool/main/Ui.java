@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Ui {
 
     void program_menu() {
-        int option = 0;
+        int option;
         do {
             clearScreen();
             FactParser factParser = new FactParser("src/main/resources/Facts.xml");
@@ -67,7 +67,7 @@ public class Ui {
 
                 default:
                     clearScreen();
-                    System.out.println("\nInvalid option! \n");
+                    System.out.println("\nInvalid option!");
                     promptEnterKey();
             }
         } while (option != 0);
