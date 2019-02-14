@@ -8,8 +8,6 @@ import java.util.Scanner;
 
 public class Ui {
 
-    private Scanner scanner;
-
     void program_menu() {
         int option = 0;
         do {
@@ -17,7 +15,7 @@ public class Ui {
             FactParser factParser = new FactParser("src/main/resources/Facts.xml");
             RuleParser ruleParser = new RuleParser("src/main/resources/Rules.xml");
             ESProvider esp = new ESProvider(factParser, ruleParser);
-
+            System.out.println("Main Menu\n");
             String[] options = {
                     "List all superheroes.",
                     "Find out who is your superhero!"
@@ -42,6 +40,7 @@ public class Ui {
                     break;
 
                 case 2:
+                    clearScreen();
                     esp.collectAnswers();
                     if(esp.evaluate().size() == 0) {
                         clearScreen();
@@ -75,7 +74,7 @@ public class Ui {
     }
 
     public String getInput() {
-        scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         return input;
     }
@@ -91,7 +90,7 @@ public class Ui {
 
     public void promptEnterKey(){
         System.out.println("\n Press \"ENTER\" to continue...");
-        scanner.nextLine();
+        getInput();
     }
 
     public void clearScreen(){
