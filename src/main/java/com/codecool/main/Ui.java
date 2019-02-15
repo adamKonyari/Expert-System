@@ -18,7 +18,7 @@ public class Ui {
             System.out.println("Main Menu\n");
             String[] options = {
                     "List all superheroes.",
-                    "Find out who is your superhero!"
+                    "Find out which superhero you would be!"
                     };
             menuPrinter(options);
             System.out.print("Please select an option: ");
@@ -44,13 +44,13 @@ public class Ui {
                     esp.collectAnswers();
                     if(esp.evaluate().size() == 0) {
                         clearScreen();
-                        System.out.println("No superhero found. You're probably dead by now anyway...");
+                        System.out.println("There is no such hero. Try again!");
                         promptEnterKey();
                         break;
                     } else {
                         if(esp.evaluate().size() == 1) {
                             clearScreen();
-                            System.out.println("Based on your answers, this might be your superhero:\n");
+                            System.out.println("Based on your answers, you would be:\n");
                         } else if(esp.evaluate().size() > 1) {
                             clearScreen();
                             System.out.println("Based on your answers, these are your superheroes:\n");

@@ -65,15 +65,4 @@
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="penis">
-        <Question>Do you want to have a Super Penis?</Question>
-        <Answer>
-            <Selection value="true">
-                <SingleValue value="yes"/>
-            </Selection>
-            <Selection value="false">
-                <SingleValue value="no"/>
-            </Selection>
-        </Answer>
-    </Rule>
 </Rules>

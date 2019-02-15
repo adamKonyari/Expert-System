@@ -262,7 +262,17 @@
             <Eval id="telekinesis">false</Eval>
             <Eval id="speed">false</Eval>
             <Eval id="money">false</Eval>
-            <Eval id="penis">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="chuckNorris">
+        <Description value="Chuck Norris"/>
+        <Evals>
+            <Eval id="flying">true</Eval>
+            <Eval id="telepathy">true</Eval>
+            <Eval id="strength">true</Eval>
+            <Eval id="telekinesis">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="money">true</Eval>
         </Evals>
     </Fact>
 </Facts>
